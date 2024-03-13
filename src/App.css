@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  /* background-image: url('./assets/messi.jpg');
+  background-size: cover;
+  background-position: center; */
+}
+
+
+/* body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/keith-misner-h0Vxgz5tyXA-unsplash.jpg'); /* Replace 'background.jpg' with your image filename */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; */
+  /* You can add more background properties as needed, e.g. background-color */
+/* } */
+ /* */ */
+
+/* styles.css */
+
+.bar {
+  color: rgb(43, 121, 111);
+  text-align: right;
+  border-radius: 10px;
+  border-width: 10px;
+  border-color: aliceblue;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.bar .active {
+  color:rgb(167, 250, 1);
+}
+
+.barli {
+  display: inline-table;
+  padding: 20px;
+  border-width: 10px;
+  border-color: rgb(0, 117, 35);
+  border-radius: 0cm;
+}
+
+.navbarlink {
+  color: black;
+  text-decoration: none;
+  border-width: 5px;
+  border-color: aliceblue;
+}
+
+.navbarlink:hover {
+  color: honeydew;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
